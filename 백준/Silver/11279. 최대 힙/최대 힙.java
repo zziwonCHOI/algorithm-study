@@ -21,9 +21,9 @@ public class Main {
         for(int i:list){
             if(i==0){
                 if(pq.isEmpty()){
-                    sb.append(0+" ");
+                    sb.append(0).append("\n");
                 }else{
-                    sb.append(pq.poll()).append(" ");
+                    sb.append(pq.poll()).append("\n");
                 }
             }else{
                 pq.add(i);
